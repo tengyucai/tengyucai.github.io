@@ -115,23 +115,23 @@
                     <table align="center">
                         <tr>
                             <td><h4 align="left">Objective 1 : Extra Primitive - Cylinder</h4></td>
-                            <td><h4 align="left">Objective 11 : Texture Mapping</h4></td>
+                            <td><h4 align="left" style="padding-left:5em">  Objective 11 : Texture Mapping</h4></td>
                         </tr>
                         <tr>
                             <td><h4 align="left">Objective 2 : Constructive Solid Geometry</h4></td>
-                            <td><h4 align="left">Objective 12 : Bump Mapping</h4></td>
+                            <td><h4 align="left" style="padding-left:5em">  Objective 12 : Bump Mapping</h4></td>
                         </tr>
                         <tr>
                             <td><h4 align="left">Objective 3 : Reflection</h4></td>
-                            <td><h4 align="left">Objective 13 : Adaptive Anti-aliasing</h4></td>
+                            <td><h4 align="left" style="padding-left:5em">  Objective 13 : Adaptive Anti-aliasing</h4></td>
                         </tr>
                         <tr>
                             <td><h4 align="left">Objective 4 : Refraction</h4></td>
-                            <td><h4 align="left">Objective 14 : Multi-threading</h4></td>
+                            <td><h4 align="left" style="padding-left:5em">  Objective 14 : Multi-threading</h4></td>
                         </tr>
                         <tr>
                             <td><h4 align="left">Objective 5 : Photon Map</h4></td>
-                            <td><h4 align="left">Objective 15 : Final Scene</h4></td>
+                            <td><h4 align="left" style="padding-left:5em">  Objective 15 : Final Scene</h4></td>
                         </tr>
                         <tr>
                             <td><h4 align="left">Objective 6 : Diffuse Interreflection</h4></td>
@@ -386,7 +386,14 @@
                 <div class="col-lg-12">
                     <h2>Objective 13 : Adaptive Anti-aliasing</h2>
                     <br>
-                    <img src="images/aa.png" alt="aa" max-height="70%", max-width="70%", width="500", height="500">
+                    <table>
+                        <tr>    
+                        <td><img src="images/pre_aa.png" alt="pre_aa" max-height="70%", max-width="70%", width="400", height="400" ></td>
+                        <td><img src="images/aa_lines.png" alt="aa_lines" max-height="70%", max-width="70%", width="400", height="400" " /></td>
+                        <td><img src="images/aa.png" alt="aa" max-height="70%", max-width="70%", width="400", height="400" "/></td>
+                        </tr>
+                    </table>
+                    
                     <br>
                     <br>
                     <br>
@@ -404,7 +411,25 @@
                 <div class="col-lg-12">
                     <h2>Objective 14 : Multi-threading</h2>
                     <br>
-                    <img src="images/multi-threading.png" alt="multi-threading" max-height="70%", max-width="70%", width="500", height="500">
+                    <table style="border-width: 2px; border-color: black; border-right: 2px black"  align="center">
+                        <tr style="border-width: 2px; border-color: black">
+                            <td><p align="left">Without Multi-threading</p></td>
+                            <td style="padding-left:5em"><p align="left">With Multithreading (2 threads)</p></td>
+                        </tr style="border-width: 2px; border-color: black">
+                        <tr>
+                            <td>
+                                <p align="left">real    2m20.229s</p>
+                                <p align="left">user    2m19.345s</p>
+                                <p align="left">sys     0m0.558s</p>
+                            </td>
+                            <td style="padding-left:5em">
+                                <p align="left">real    1m54.285s</p>
+                                <p align="left">user    2m17.820s</p>
+                                <p align="left">sys     0m1.127s</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <img src="images/multi-thread.png" alt="multi-thread" max-height="70%", max-width="70%", width="500", height="500">
   <!--                   <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p> -->
                     <br>
                     <br>
@@ -423,7 +448,7 @@
                 <div class="col-lg-12">
                     <h2>Objective 15 : Final Scene</h2>
                     <br>
-                    <img src="images/sample.png" alt="final" max-height="70%", max-width="70%", width="1024", height="1024">
+                    <img src="images/sample.png" alt="final" max-height="70%", max-width="70%", width="900", height="900">
                     <br>
                     <br>
                     <br>
